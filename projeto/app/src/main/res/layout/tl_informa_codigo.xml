@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    android:padding="@dimen/padding">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <TextView
+            style="@style/txt.escuro"
+            android:text="@string/icd_lb1"/>
+        <EditText
+            style="@style/campo"
+            android:maxLength="12"
+            android:id="@+id/tl_ifc_codigo"
+            android:inputType="number"/>
+        <Button
+            style="@style/bt.padrao"
+            android:text="@string/icd_bt1"
+            android:id="@+id/tl_ifc_bt_validar"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</RelativeLayout>

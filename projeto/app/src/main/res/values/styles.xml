@@ -1,0 +1,212 @@
+<resources>
+
+    <!-- _________________________ temas ____________________________ -->
+
+    <!-- tema base -->
+    <style name="tela_base" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:alertDialogTheme">@style/dialogo_confirmacao</item>
+    </style>
+
+
+
+    <!-- tema para tela com menu -->
+    <style name="tela_com_menu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:alertDialogTheme">@style/dialogo_confirmacao</item>
+    </style>
+
+
+    <style name="dialogo_confirmacao" parent="@android:style/Theme.Dialog">
+        <item name="android:bottomBright">@android:color/white</item>
+        <item name="android:bottomDark">@android:color/white</item>
+        <item name="android:centerBright">@android:color/white</item>
+        <item name="android:centerMedium">@android:color/white</item>
+        <item name="android:fullBright">@android:color/white</item>
+        <item name="android:fullDark">@android:color/white</item>
+        <item name="android:topBright">@android:color/white</item>
+    </style>
+
+
+    <!-- tema sem barra no topo -->
+    <style name="tela_sem_barra_superior" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+
+    <!-- janela de dialogo com barra no topo -->
+    <style name="dialogo" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <!-- janela de dialogo sem barra no topo -->
+    <style name="dialogo_sem_barrra" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <!-- _________________________ rotulos ____________________________ -->
+
+
+    <!-- rotulo padrao -->
+    <style name="txt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margem_componente</item>
+        <item name="android:layout_marginLeft">@dimen/margem_componente</item>
+        <item name="android:layout_marginRight">@dimen/margem_componente</item>
+        <item name="android:layout_marginBottom">@dimen/margem_componente</item>
+        <item name="android:textSize">@dimen/fonte_normal</item>
+    </style>
+
+    <!-- rotulo claro -->
+    <style name="txt.claro">
+        <item name="android:textColor">@color/branco</item>
+    </style>
+
+    <!-- rotulo escuro -->
+    <style name="txt.escuro">
+        <item name="android:textColor">@color/preto</item>
+    </style>
+
+
+    <!-- rotulo erro -->
+    <style name="txt.erro">
+        <item name="android:textColor">@color/vermelho</item>
+    </style>
+
+    <!-- rotulo titulo escuro-->
+    <style name="txt.escuro.titulo">
+        <item name="android:textSize">@dimen/fonte_maior</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- rotulo titulo claro -->
+    <style name="txt.claro.titulo">
+        <item name="android:textSize">@dimen/fonte_maior</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- _________________________ botoes ____________________________ -->
+
+
+    <!-- botao padrao -->
+    <style name="bt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/tam_bt</item>
+        <item name="android:paddingLeft">@dimen/padding_componente</item>
+        <item name="android:paddingRight">@dimen/padding_componente</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- botao padrao -->
+    <style name="bt.padrao">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@color/branco</item>
+    </style>
+
+    <!-- botao com imagem -->
+    <style name="bt.com_img">
+        <item name="android:layout_width">@dimen/tam_bt_com_img</item>
+        <item name="android:layout_height">@dimen/tam_bt_com_img</item>
+    </style>
+
+
+    <!-- _________________________ campos ____________________________ -->
+
+
+
+    <!-- campo padrao -->
+    <style name="campo">
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/altura_campo</item>
+        <item name="android:layout_marginTop">@dimen/margem_componente</item>
+        <item name="android:layout_marginLeft">@dimen/margem_componente</item>
+        <item name="android:layout_marginRight">@dimen/margem_componente</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:paddingLeft">@dimen/padding_componente</item>
+        <item name="android:paddingRight">@dimen/padding_componente</item>
+        <item name="android:maxLength">245</item>
+        <item name="android:textSize">@dimen/fonte_normal</item>
+    </style>
+
+
+
+    <!-- campo padrao -->
+    <style name="campo.fonte_escura">
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textColorHint">@color/cinza</item>
+    </style>
+
+
+    <!-- campo de senha -->
+    <style name="campo.fonte_escura.senha">
+        <item name="android:inputType">textPassword</item>
+        <item name="android:maxLength">16</item>
+    </style>
+
+
+    <!-- _________________________ radio ____________________________ -->
+
+    <style name="radio">
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/fonte_normal</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:paddingLeft">6dp</item>
+    </style>
+
+
+
+    <!-- _________________________ radio ____________________________ -->
+
+    <style name="check">
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/fonte_normal</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:paddingLeft">6dp</item>
+    </style>
+
+
+
+    <!-- _________________________ separador ____________________________ -->
+
+    <style name="separador">
+        <item name="android:background">@color/preto</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+
+
+    <style name="CustomSwitchTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlActivated">@color/verde</item>
+        <item name="colorSwitchThumbNormal">#E0E0E0</item>
+        <item name="android:colorForeground">#757575</item>
+        <item name="colorControlNormal">#757575</item>
+    </style>
+
+</resources>

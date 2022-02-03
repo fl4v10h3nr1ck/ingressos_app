@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="@dimen/tam_icon_100"
+        android:layout_height="@dimen/tam_icon_100"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/erro"/>
+    <TextView
+        style="@style/txt.escuro"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/err_lb1"/>
+    <Button
+        style="@style/bt.padrao"
+        android:text="@string/err_bt1"
+        android:id="@+id/bt_voltar_tela_erro"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true" />
+</LinearLayout>

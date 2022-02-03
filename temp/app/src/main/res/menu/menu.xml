@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:title="@string/mn_tt1">
+            <menu>
+                <!--
+                <item
+                    android:id="@+id/item_menu_inicio"
+                    android:icon="@drawable/principal"
+                    android:title="@string/mn_lb1"/>
+                <item
+                    android:id="@+id/item_menu_chat"
+                    android:icon="@drawable/mensagem"
+                    android:title="@string/mn_lb6"/> -->
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item
+            android:title="">
+            <menu>
+    <!--
+                <item
+                    android:id="@+id/item_menu_sobre"
+                    android:icon="@drawable/sobre"
+                    android:title="@string/mn_lb2"/>
+                <item
+                    android:id="@+id/item_trocar_senha"
+                    android:icon="@drawable/chaves"
+                    android:title="@string/mn_lb5"/>
+                <item
+                    android:id="@+id/item_menu_entrar"
+                    android:icon="@drawable/cadastro"
+                    android:title="@string/mn_lb4"/>
+                <item
+                    android:id="@+id/item_menu_sair"
+                    android:icon="@drawable/sair"
+                    android:title="@string/mn_lb3"/> -->
+            </menu>
+        </item>
+    </group>
+</menu>

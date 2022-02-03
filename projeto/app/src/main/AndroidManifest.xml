@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ilxbrasil.ingressos" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-feature android:name="android.hardware.camera" />
+
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated = "false"
+        android:theme="@style/tela_base">
+
+        <activity android:name="com.ilxbrasil.ingressos.Tela_Abertura"
+            android:label="@string/app_name"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/tela_sem_barra_superior">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name="com.ilxbrasil.ingressos.Tela_Sobre"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/dialogo_sem_barrra"></activity>
+
+
+        <activity
+            android:name="com.ilxbrasil.ingressos.Tela_Login"
+            android:theme="@style/tela_sem_barra_superior"
+            android:screenOrientation="portrait"></activity>
+
+
+        <activity
+            android:name="com.ilxbrasil.ingressos.Tela_Conecta"
+            android:theme="@style/tela_sem_barra_superior"
+            android:screenOrientation="portrait"></activity>
+
+
+        <activity
+            android:name="com.ilxbrasil.ingressos.Tela_Principal"
+            android:screenOrientation="portrait"
+            android:theme="@style/tela_com_menu"></activity>
+
+
+        <activity
+            android:name="com.ilxbrasil.ingressos.Tela_ValidacaoResultado"
+            android:screenOrientation="portrait"
+            android:theme="@style/dialogo_sem_barrra"></activity>
+
+
+        <activity
+            android:name="com.ilxbrasil.ingressos.Tela_InformaCodigo"
+            android:theme="@style/tela_base"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

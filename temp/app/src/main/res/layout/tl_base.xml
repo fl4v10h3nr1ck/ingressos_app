@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tl_drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/cinza_claro">
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tl_bs_coordinatorlayout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="52dp"
+                android:orientation="vertical"
+                android:id="@+id/conteudo"/>
+            <android.support.v4.view.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="100dp"
+                android:id="@+id/pagina"/>
+        </LinearLayout>
+
+       <!-- <include layout="@layout/comp_barra_menu"/> -->
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/tl_base_bt_flut_1"
+            android:layout_width="@dimen/tam_bt_flutuante"
+            android:layout_height="@dimen/tam_bt_flutuante"
+            android:layout_gravity="left|bottom"
+            android:layout_margin="10dp"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/tl_base_bt_flut_2"
+            android:layout_width="@dimen/tam_bt_flutuante"
+            android:layout_height="@dimen/tam_bt_flutuante"
+            android:layout_gravity="center|bottom"
+            android:layout_margin="10dp"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/tl_base_bt_flut_3"
+            android:layout_width="@dimen/tam_bt_flutuante"
+            android:layout_height="@dimen/tam_bt_flutuante"
+            android:layout_gravity="right|bottom"
+            android:layout_margin="10dp"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/branco"
+        app:headerLayout="@layout/comp_cabecalho_menu"
+        app:menu="@menu/menu" />
+
+</android.support.v4.widget.DrawerLayout>

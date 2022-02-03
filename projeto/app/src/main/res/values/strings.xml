@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Ingressos</string>
+    <string name="versao_cod">1.0</string>
+    <string name="versao_valor">1</string>
+    <string name="versao_nome">Rubi</string>
+    <string name="pack_nome">com.ilxbrasil.ingressos</string>
+    <string name="app_nome_formatado">Ingressos</string>
+    <string name="app_email">suporte@ilxbrasil.com</string>
+    <string name="app_site">ilxbrasil.com</string>
+
+    <string name="erro_de_conexao">Você está sem internet. Falha em conectar.</string>
+    <string name="nada_encontrado">Nada Encontrado</string>
+
+    <!-- ______ tela erro _______-->
+
+    <string name="err_lb1">Um erro ocorreu. Recurso não encontrado.</string>
+    <string name="err_bt1">Voltar</string>
+
+
+    <!-- ______ tela erro _______-->
+
+    <string name="mn_it1"></string>
+    <string name="mn_it2"></string>
+    <string name="mn_it3">Entrar</string>
+    <string name="mn_it4">Sair</string>
+    <string name="mn_it5">Conectar</string>
+    <string name="mn_it6">Informar Código</string>
+    <string name="mn_it7">Sobre</string>
+    <string name="mn_it8">Principal</string>
+
+    <!-- ______ tela abertura _______-->
+
+    <string name="tl_abt_lb1" formatted="false">Copyright &#169; %s. Ingressos</string>
+
+
+    <!-- ______ tela login _______-->
+
+    <string name="lgn_lb1">Usuário:</string>
+    <string name="lgn_lb2">Senha:</string>
+    <string name="lgn_bt1">Entrar</string>
+
+
+    <!-- ______ tela conecta _______-->
+
+    <string name="cnt_lb1">Informe o IP do Servidor:</string>
+    <string name="cnt_lb2">O IP informado não corresponde a um servidor de ingressos válido. Entre em contato com o suporte para ajuda.</string>
+    <string name="cnt_bt1">Conectar</string>
+
+
+    <!-- ______ tela principal _______-->
+
+    <string name="pcp_lb1">Usuário: </string>
+
+
+    <!-- ______ tela validacao resultado _______-->
+
+    <string name="rvl_bt1">Fechar</string>
+
+
+    <!-- ______ tela informa codigo _______-->
+
+    <string name="icd_lb1">Informe o Código:</string>
+    <string name="icd_bt1">Validar</string>
+</resources>

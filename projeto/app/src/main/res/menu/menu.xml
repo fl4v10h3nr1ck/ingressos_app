@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:title="">
+            <menu>
+                <item
+                    android:id="@+id/item_menu_principal"
+                    android:icon="@drawable/principal"
+                    android:title="@string/mn_it8"/>
+                <item
+                    android:id="@+id/item_menu_conectar"
+                    android:icon="@drawable/conecta"
+                    android:title="@string/mn_it5"/>
+                <item
+                    android:id="@+id/item_menu_info_cod"
+                    android:icon="@drawable/info_cod"
+                    android:title="@string/mn_it6"/>
+                <item
+                    android:id="@+id/item_menu_entrar"
+                    android:icon="@drawable/logar"
+                    android:title="@string/mn_it3"/>
+                <item
+                    android:id="@+id/item_menu_sair"
+                    android:icon="@drawable/sair"
+                    android:title="@string/mn_it4"/>
+                <item
+                    android:id="@+id/item_menu_sobre"
+                    android:icon="@drawable/sobre"
+                    android:title="@string/mn_it7"/>
+            </menu>
+        </item>
+    </group>
+</menu>

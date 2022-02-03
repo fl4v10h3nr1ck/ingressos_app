@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <ImageView
+        android:layout_width="@dimen/tam_icon_180"
+        android:layout_height="@dimen/tam_icon_180"
+        android:gravity="center"
+        android:src="@drawable/logo"
+        android:layout_centerInParent="true"
+        android:id="@+id/tl_abt_logo"/>
+    <TextView
+        style="@style/txt.claro.titulo"
+        android:text="@string/app_nome_formatado"
+        android:gravity="center"
+        android:textSize="36dp"
+        android:layout_below="@+id/tl_abt_logo"
+        android:id="@+id/tl_abt_lb_titulo"/>
+    <TextView
+        style="@style/txt.claro"
+        android:gravity="center"
+        android:textSize="@dimen/fonte_micro"
+        android:layout_below="@+id/tl_abt_lb_titulo"
+        android:id="@+id/tl_abt_lb_status"/>
+    <TextView
+        style="@style/txt.claro.titulo"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/tl_abt_lb_copyright"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
